@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:name="com.cs442.sparameshwara.foodmenu.AddNewMenuItemFragment"
+        android:id="@+id/AddNewMenuItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        />
+    <fragment android:name="com.cs442.sparameshwara.foodmenu.MenuListFragment"
+        android:id="@+id/MenuListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
